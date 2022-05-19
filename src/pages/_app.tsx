@@ -1,0 +1,17 @@
+import type { AppProps } from 'next/app';
+import {Header} from '../components/Header/Header';
+import {Footer} from '../components/Footer/Footer';
+import '../static/css/style.css';
+
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+      <>
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+      </>
+  );
+}
+
+export default MyApp

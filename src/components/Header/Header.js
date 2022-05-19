@@ -1,9 +1,8 @@
 import React,{ useState,useEffect } from 'react';
-import '../../static/css/style.css';
 import {Menu} from './Menu';
 import {MenuDesktop} from './MenuDesktop';
 
-const Header = () => {
+export const Header = () => {
     const [menu,setMenu] = useState(false);
     const [menuDesktop,setMenuDesktop] = useState(true);
     const [icon_menu,setIcon_menu] = useState(true);
@@ -76,5 +75,4 @@ const Header = () => {
     );
 }
 
-export {Header};
 

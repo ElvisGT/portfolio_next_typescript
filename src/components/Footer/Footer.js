@@ -1,6 +1,5 @@
 import React from 'react';
 import { useAnimation } from '../../hooks/useAnimation';
-import '../../static/css/style.css';
 import { PageTitle } from '../PageTitle/PageTitle';
 
 
