@@ -1,7 +1,7 @@
 import React from 'react';
-import {PageTitle} from '../PageTitle/PageTitle';
-import {Projects} from './Projects';
-import {data} from './data.jsx';
+import {PageTitle} from '@components/PageTitle/PageTitle';
+import {Projects} from '@components/Portfolio/Projects';
+import {data} from '@components/Portfolio/data';
 
 
 const Portfolio = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import { PageTitle } from '../PageTitle/PageTitle';
-import {ItemServices} from './ItemServices';
+import { PageTitle } from '../../components/PageTitle/PageTitle';
+import {ItemServices} from '../../components/Services/ItemServices';
 
 const Services = () => {
     

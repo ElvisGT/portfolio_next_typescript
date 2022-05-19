@@ -17,8 +17,6 @@ export const Header = () => {
 
     }
 
-        
-
         useEffect(() => {
 
             //Esto es para medir en todo momento si se hace scroll

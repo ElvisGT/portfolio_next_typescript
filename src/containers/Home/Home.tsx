@@ -1,9 +1,8 @@
-import React from 'react';
-import { PageTitle } from '../PageTitle/PageTitle';
+import {PageTitle} from '@components/PageTitle/PageTitle';
 
 const Home = () => {
-    return(
-        <div className="home">
+  return (
+    <div className="home">
             <div className="home-img-container">
                 <img className="home-img" src="https://i.ibb.co/nDJ2gQF/IMG-20220413-190104.jpg" alt="foto de Elvis" />
             </div>
@@ -14,7 +13,8 @@ const Home = () => {
                 </p>
             </div>
         </div>
-    );
-}
+  );
+};
 
 export {Home};
+

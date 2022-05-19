@@ -1,7 +1,6 @@
-import React from 'react';
-import {BlogItem} from './BlogItem';
-import {useBlog} from '../../hooks/useBlog';
-import { PageTitle } from '../PageTitle/PageTitle';
+import {BlogItem} from '@components/Blog/BlogItem';
+import {useBlog} from '@hooks/useBlog';
+import { PageTitle } from '@components/PageTitle/PageTitle';
 
 
 
@@ -20,12 +19,12 @@ const Blog = () => {
                 {news.length === 0 
                 
                     ? 
-                        <React.Fragment>
+                        <>
                             <h1 className="loading">Cargando...</h1> 
                             <div className="loading-box">
                                 <div className="loading-box-item"></div>
                             </div>
-                        </React.Fragment>
+                        </>
 
                     :
 
@@ -36,11 +35,11 @@ const Blog = () => {
                                 : url_img = "https://i.ibb.co/QXBX6Nw/pexels-vie-studio-4439425-1.jpg",
                             //si la imgen de la api es null le seteo la url mia
 
-                            <React.Fragment key={item.title}>
+                            <div key={item.title}>
                                 
                                 <BlogItem dateTime={item.pubDate} img={url_img} alt={item.title} title={item.title} description={item.description} link={item.link}/>
                                 
-                            </React.Fragment>
+                            </div>
                         ))
                         }
                     </div>

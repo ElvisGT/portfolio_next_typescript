@@ -1,14 +1,20 @@
-import type { AppProps } from 'next/app';
-import {Header} from '../components/Header/Header';
-import {Footer} from '../components/Footer/Footer';
-import '../static/css/style.css';
+import {Header} from '@components/Header/Header';
+import {Footer} from '@components/Footer/Footer';
+import { Home } from '@containers/Home/Home';
+import {Services} from '@containers/Services/Services';
+import {Portfolio} from '@containers/Portfolio/Portfolio';
+import {Blog} from '@containers/Blog/Blog';
+import '@static/css/style.css';
 
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp() {
   return (
       <>
         <Header />
-        <Component {...pageProps} />
+        <Home />
+        <Services />
+        <Portfolio />
+        <Blog />
         <Footer />
       </>
   );
