@@ -1,6 +1,8 @@
 import React,{ useState,useEffect } from 'react';
 import {Menu} from './Menu';
 import {MenuDesktop} from './MenuDesktop';
+import styles from '@static/css/style.module.css';
+
 
 export const Header = () => {
     const [menu,setMenu] = useState(false);
@@ -51,12 +53,12 @@ export const Header = () => {
            
    
     return(
-        <div className="header" id="home">
-            <h1 className="header-name" id="header-name-animation">ElvisGT</h1>
+        <div className={styles.header} id="home">
+            <h1 className={styles['header-name']} id="header-name-animation">ElvisGT</h1>
 
             {/*Mostrar icono de menu*/}
             {icon_menu &&
-                <img className="header-icon-menu" src="https://i.ibb.co/Q8TW0J6/icons8-men-32.png" alt="icono de menu" onClick={handleClick} />
+                <img className={styles['header-icon-menu']} src="https://i.ibb.co/Q8TW0J6/icons8-men-32.png" alt="icono de menu" onClick={handleClick} />
             }
 
             {/*Mostrar el menu*/}

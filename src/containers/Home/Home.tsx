@@ -1,15 +1,16 @@
 import {PageTitle} from '@components/PageTitle/PageTitle';
+import styles from '@static/css/style.module.css';
 
 const Home = () => {
   return (
-    <div className="home">
-            <div className="home-img-container">
-                <img className="home-img" src="https://i.ibb.co/nDJ2gQF/IMG-20220413-190104.jpg" alt="foto de Elvis" />
+    <div className={styles.home}>
+            <div className={styles['home-img-container']}>
+                <img className={styles['home-img']} src="https://i.ibb.co/nDJ2gQF/IMG-20220413-190104.jpg" alt="foto de Elvis" />
             </div>
-            <div className="home-container">
+            <div className={styles['home-container']}>
                 <PageTitle title="INTRODUCCIÓN" description="Frontend Developer React JS"/>
                 
-                <p className="home-description">Mi nombre es Elvis y soy Frontend Developer React JS. Estudio diariamente de forma autodidacta para superarme y aprender nuevas tecnologías. No creo en las cosas imposibles, pienso que con perseverancia, sacrificio y esmero todo se puede lograr.
+                <p className={styles['home-description']}>Mi nombre es Elvis y soy Frontend Developer React JS. Estudio diariamente de forma autodidacta para superarme y aprender nuevas tecnologías. No creo en las cosas imposibles, pienso que con perseverancia, sacrificio y esmero todo se puede lograr.
                 </p>
             </div>
         </div>

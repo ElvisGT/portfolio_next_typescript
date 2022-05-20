@@ -1,14 +1,16 @@
 import {PageTitle} from '@components/PageTitle/PageTitle';
 import {Projects} from '@components/Portfolio/Projects';
 import {data} from '@components/Portfolio/data';
+import styles from '@static/css/style.module.css';
+
 
 const Portfolio = () => {
     
     return(
-        <div className="portfolio" id="portfolio">
+        <div className={styles.portfolio} id="portfolio">
             <PageTitle title="PORTAFOLIO" description="Mis proyectos"/>
 
-            <section className="portfolio-container">
+            <section className={styles['portfolio-container']}>
             {data.map(item => (
                     <div key={item.id}>
                         <Projects img={item.img} 

@@ -1,8 +1,7 @@
 import {BlogItem} from '@components/Blog/BlogItem';
 import {useBlog} from '@hooks/useBlog';
 import { PageTitle } from '@components/PageTitle/PageTitle';
-
-
+import styles from '@static/css/style.module.css';
 
 
 const Blog = () => {
@@ -14,21 +13,21 @@ const Blog = () => {
 
 
     return(
-        <div className="blog" id="blog">
+        <div className={styles.blog} id="blog">
                 <PageTitle title="ÚLTIMAS NOTICIAS" description="Últimas noticias acerca de tegnología, entretenimiento y ciencia."/>
                 {news.length === 0 
                 
                     ? 
                         <>
-                            <h1 className="loading">Cargando...</h1> 
-                            <div className="loading-box">
-                                <div className="loading-box-item"></div>
+                            <h1 className={styles.loading}>Cargando...</h1> 
+                            <div className={styles['loading-box']}>
+                                <div className={styles['loading-box-item']}></div>
                             </div>
                         </>
 
                     :
 
-                        <div className="blog-container" >
+                        <div className={styles['blog-container']}>
                         {news.slice(0,3).map(item => (
                             
                             item.image_url !== null  ? url_img = item.image_url 

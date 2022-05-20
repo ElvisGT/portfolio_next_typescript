@@ -7,8 +7,7 @@ import {Services} from '@containers/Services/Services';
 import {Portfolio} from '@containers/Portfolio/Portfolio';
 import {Blog} from '@containers/Blog/Blog';
 import "aos/dist/aos.css";
-import '@static/css/style.css';
-
+import '@static/css/globals.css';
 
 function MyApp() {
     useEffect(() => {

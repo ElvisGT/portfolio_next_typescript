@@ -1,11 +1,11 @@
-import  React  from 'react';
+import styles from '@static/css/style.module.css';
 
 const PageTitle = (props) => {
     return(
-        <React.Fragment>
-            <h1 className="page-title">{props.title}</h1>
-            <h2 className="page-description">{props.description}</h2>
-        </React.Fragment>
+        <>
+            <h1 className={styles['page-title']}>{props.title}</h1>
+            <h2 className={styles['page-description']}>{props.description}</h2>
+        </>
     )
 }
 
