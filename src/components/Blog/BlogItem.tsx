@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import styles from '@static/css/style.module.css';
 
 
@@ -14,10 +16,10 @@ const BlogItem = ({dateTime,img,alt,title,description,link}) => {
                     data-aos-anchor-placement="top-center">
 
                     <h2 className={styles['date-time']}>{dateTime}</h2>
-                    <img className={styles['item-card-img']} src={img} alt={alt}/>
+                    <Image className={styles['item-card-img']} src={img} alt={alt}/>
                     <h3 className={styles['item-card-title']}>{title}</h3>
                     <p className={styles['item-card-description']}>{description}</p>
-                    <a href={link} target={"_blank"} rel="noreferrer" className={styles['item-card-vinculo']} title="Ir al sitio de la noticia">Leer más<img className={styles['item-card-arrow-img']} src="https://i.ibb.co/cQ1m9Bt/icons8-chebr-n-hacia-la-derecha-30-1.png" alt="right arrow" title="Ir al sitio de la noticia"/></a>
+                    <Link href={link} target={"_blank"} rel="noreferrer" className={styles['item-card-vinculo']} title="Ir al sitio de la noticia">Leer más<Image className={styles['item-card-arrow-img']} src="https://i.ibb.co/cQ1m9Bt/icons8-chebr-n-hacia-la-derecha-30-1.png" alt="right arrow" title="Ir al sitio de la noticia"/></Link>
                 </div>
         </>
     );

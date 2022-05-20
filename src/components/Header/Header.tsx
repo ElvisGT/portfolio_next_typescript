@@ -1,6 +1,7 @@
 import React,{ useState,useEffect } from 'react';
 import {Menu} from './Menu';
 import {MenuDesktop} from './MenuDesktop';
+import Image from 'next/image';
 import styles from '@static/css/style.module.css';
 
 
@@ -58,7 +59,7 @@ export const Header = () => {
 
             {/*Mostrar icono de menu*/}
             {icon_menu &&
-                <img className={styles['header-icon-menu']} src="https://i.ibb.co/Q8TW0J6/icons8-men-32.png" alt="icono de menu" onClick={handleClick} />
+               <Image className={styles['header-icon-menu']} src="https://i.ibb.co/Q8TW0J6/icons8-men-32.png" alt="icono de menu" onClick={handleClick} />
             }
 
             {/*Mostrar el menu*/}

@@ -1,11 +1,12 @@
 import {PageTitle} from '@components/PageTitle/PageTitle';
+import Image from 'next/image';
 import styles from '@static/css/style.module.css';
 
 const Home = () => {
   return (
     <div className={styles.home}>
             <div className={styles['home-img-container']}>
-                <img className={styles['home-img']} src="https://i.ibb.co/nDJ2gQF/IMG-20220413-190104.jpg" alt="foto de Elvis" />
+                <Image className={styles['home-img']} src="https://i.ibb.co/nDJ2gQF/IMG-20220413-190104.jpg" alt="foto de Elvis" />
             </div>
             <div className={styles['home-container']}>
                 <PageTitle title="INTRODUCCIÓN" description="Frontend Developer React JS"/>
