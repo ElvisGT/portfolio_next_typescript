@@ -1,10 +1,11 @@
+import { PropsPageTitle } from '@interface/index';
 import styles from '@static/css/style.module.css';
 
-const PageTitle = (props) => {
+const PageTitle = ({title,description} : PropsPageTitle) => {
     return(
         <>
-            <h1 className={styles['page-title']}>{props.title}</h1>
-            <h2 className={styles['page-description']}>{props.description}</h2>
+            <h1 className={styles['page-title']}>{title}</h1>
+            <h2 className={styles['page-description']}>{description}</h2>
         </>
     )
 }

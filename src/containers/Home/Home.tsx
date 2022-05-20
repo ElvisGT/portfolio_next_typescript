@@ -6,7 +6,11 @@ const Home = () => {
   return (
     <div className={styles.home}>
             <div className={styles['home-img-container']}>
-                <Image className={styles['home-img']} src="https://i.ibb.co/nDJ2gQF/IMG-20220413-190104.jpg" alt="foto de Elvis" />
+                <Image className={styles['home-img']} 
+                        src="https://i.ibb.co/nDJ2gQF/IMG-20220413-190104.jpg" 
+                        alt="foto de Elvis"
+                        width={250}
+                        height={250} />
             </div>
             <div className={styles['home-container']}>
                 <PageTitle title="INTRODUCCIÓN" description="Frontend Developer React JS"/>

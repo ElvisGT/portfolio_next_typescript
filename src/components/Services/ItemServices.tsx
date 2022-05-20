@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import styles from '@static/css/style.module.css';
+import { PropsItemServices } from '@interface/index';
 
 
-const ItemServices = ({serviceName,serviceIMG,serviceALT}) => {
+const ItemServices = ({serviceName,serviceIMG,serviceALT} : PropsItemServices) => {
     return (
             <>
                 <div className={styles['services-card-item']} 
@@ -14,7 +15,11 @@ const ItemServices = ({serviceName,serviceIMG,serviceALT}) => {
                         data-aos-once="true"
                         data-aos-anchor-placement="top-center" >
                         
-                        <Image className={styles['services-card-img']} src={serviceIMG} alt={serviceALT}/>
+                        <Image className={styles['services-card-img']} 
+                            src={serviceIMG} 
+                            alt={serviceALT}
+                            width={50}
+                            height={50}/>
                         <p className={styles['services-card-serviceName']}>{serviceName}</p>
                 </div>
             </>

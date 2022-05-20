@@ -20,6 +20,8 @@
       "@components/*":["components/*"],
       "@containers/*":["containers/*"],
       "@hooks/*":["hooks/*"],
+      "@type/*":["type/*"],
+      "@interface/*":["interface/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
