@@ -14,7 +14,7 @@ const data = [
         alt:'imagen de proyecto Curso_Practico_Next',
         description:'Esta aplicación la realicé con React Js, haciendo uso de React Context y utilizando Server Side Rendering con Next js. Hago peticiones de una fake api con Axio para los datos',
         github:'https://github.com/ElvisGT/Practica_Next',
-        hosting:'https://practica-next-lsbcnkgti-elvisgt.vercel.app/',
+        hosting:'https://practica-next-4fvj4w88d-elvisgt.vercel.app/',
 
     },
     {
