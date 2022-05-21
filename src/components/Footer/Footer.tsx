@@ -15,7 +15,7 @@ const Footer = () => {
                                 width={30}
                                 height={30}/>
                     <Link href="https://www.linkedin.com/in/elvis-gil-torres-ab64a9225/" target={"_blank"} rel="noreferrer">
-                        <a className={styles['footer-vinculo']}>LinkedIn</a>
+                        <button className={styles['footer-vinculo']}>LinkedIn</button>
                     </Link>
                 </div>
                 
@@ -27,7 +27,7 @@ const Footer = () => {
                                     height={30}
                                     />
                     <Link  href="https://www.facebook.com/elvis.giltorres/" target={"_blank"} rel="noreferrer">
-                            <a className={styles['footer-vinculo']}>Facebook</a>
+                            <button className={styles['footer-vinculo']}>Facebook</button>
                     </Link>
                 </div>
                 
@@ -39,7 +39,7 @@ const Footer = () => {
                                     height={30}
                                     />
                     <Link  href="https://github.com/ElvisGT" target={"_blank"} rel="noreferrer">
-                            <a className={styles['footer-vinculo']}>Github</a>
+                            <button className={styles['footer-vinculo']}>Github</button>
                     </Link>
                 </div>
                 
@@ -51,7 +51,7 @@ const Footer = () => {
                                 height={30}
                                 />  
                     <Link  href="mailto:elvisgiltorres@gmail.com" target={"_blank"} rel="noreferrer">
-                        <a className={styles['footer-vinculo']}>Mail</a>
+                        <button className={styles['footer-vinculo']}>Mail</button>
                     </Link>
                 </div>
                 
@@ -74,7 +74,7 @@ const Footer = () => {
                         href="https://icons8.com" 
                         title="Link a Icons8">
                         
-                        <a className={styles['footer-icon-vinculo']}> Icons8</a>
+                        <button className={styles['footer-icon-vinculo']}> Icons8</button>
                 </Link>
             </p>
             <p className={styles['footer-icon']}>
@@ -83,7 +83,7 @@ const Footer = () => {
                         href="https://pexels.com" 
                         title="Link a Pexels">
                         
-                        <a className={styles['footer-icon-vinculo']}> Pexels</a>
+                        <button className={styles['footer-icon-vinculo']}> Pexels</button>
                 </Link>
             </p>
     
@@ -92,7 +92,7 @@ const Footer = () => {
             
         </div>
     );
-}
+};
 
 
 export {Footer};

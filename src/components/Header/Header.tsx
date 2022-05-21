@@ -1,6 +1,5 @@
 import {Menu} from './Menu';
 import {MenuDesktop} from './MenuDesktop';
-import Image from 'next/image';
 import { useHeader } from '@hooks/useHeader';
 import styles from '@static/css/style.module.css';
 
@@ -35,6 +34,6 @@ export const Header = () => {
                 
         </div>
     );
-}
+};
 
 

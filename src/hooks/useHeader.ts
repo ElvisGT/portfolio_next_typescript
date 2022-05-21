@@ -14,7 +14,7 @@ export const useHeader = () : MenusHeader => {
         setMenu(!menu);
         setIcon_menu(!icon_menu);
         setIcon_close(!icon_close);
-    }
+    };
     
     
     
@@ -27,7 +27,7 @@ export const useHeader = () : MenusHeader => {
             }else if(scroll < 300 && screenSize < 768) {
                     setIcon_menu(true);
             }
-        }
+        };
         
         //Esto es para evaluar en todo momento si se redimensiona la pantalla
         let screenSize:number = window.screen.width; //esto es para saber el tamanio de la pantalla
@@ -47,7 +47,7 @@ export const useHeader = () : MenusHeader => {
         window.onresize = () => {
             window.location.reload();
             
-        }
+        };
 
     },[]);
     
@@ -56,7 +56,7 @@ export const useHeader = () : MenusHeader => {
         menuDesktop,
         icon_menu,
         handleClick
-    }
+    };
 
 };
    

@@ -28,7 +28,7 @@ const Projects = ({img,alt,description,github,hosting} : PropsProjects) => {
                         <Link  target={"_blank"} rel="noreferrer" 
                                 href={github} >
                                 
-                                <a className={styles['project-item-vinculo']} title="Ver código en Github">Github</a>
+                                <button className={styles['project-item-vinculo']} title="Ver código en Github">Github</button>
                         </Link>
                     </div>
                     <div className={styles['project-item-vinculo-buttom']}> 
@@ -36,7 +36,7 @@ const Projects = ({img,alt,description,github,hosting} : PropsProjects) => {
                                 href={hosting}>
                                 
                                 
-                                <a className={styles['project-item-vinculo']} title="Probar sitio en producción">Probar</a>
+                                <button className={styles['project-item-vinculo']} title="Probar sitio en producción">Probar</button>
                         </Link>
                     </div>
                 </div>
@@ -44,6 +44,6 @@ const Projects = ({img,alt,description,github,hosting} : PropsProjects) => {
         </>
     );
 
-}
+};
 
 export {Projects};

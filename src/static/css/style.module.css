@@ -42,6 +42,8 @@
     position: absolute;
     right: 0;
     top: 0;
+    width: 3rem;
+    height: 3rem;
     margin: .8rem;
     z-index: 3;
 }
@@ -78,6 +80,8 @@
     font-size: 1.8rem;
     color: var(--text);
     text-decoration: none;
+    background-color: transparent;
+    border: none;
 }
 
 .header-contact {
@@ -114,6 +118,7 @@
     align-items: center;
     width: 13rem;
     height: 4rem;
+    margin: 1rem 0;
     padding: 1rem;
     background-color: var(--background-black-light);
     border-radius:.8rem;
@@ -122,7 +127,10 @@
 
 .footer-vinculo {
     text-decoration: none;
+    font-size: 1.8rem;
     color: var(--text);
+    background-color: transparent;
+    border: none;
 }
 
 .footer-upArrow {
@@ -157,6 +165,8 @@
 .footer-icon-vinculo {
     text-decoration: none;
     color: var(--text);
+    background-color: transparent;
+    border: none;
 }
 
 .home {
@@ -365,6 +375,26 @@
     background-color: var(--yellow);
 }
 
+.readMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    background-color: var(--text);
+    border: none;
+    border-radius: .5rem;
+    transition: .5s;
+
+}
+
+.readMore:hover {
+    background-color: var(--yellow);
+    cursor: pointer;
+}
+
 .item-card-arrow-img {
     margin-top: .3rem;
     margin-left: .3rem;
@@ -490,10 +520,16 @@
     font-weight: bold;
     color: var(--background-black);
     text-decoration: none;
+    background-color: transparent;
+    border: none;
 }
 
 .project-item-vinculo:active {
     background-color: var(--yellow);
+}
+
+.project-item-vinculo:hover {
+    cursor: pointer;
 }
 
 
@@ -538,6 +574,8 @@
         flex: .1;
         transition: .8s;
         text-align: center;
+        background-color: transparent;
+        border: none;
     }
 
     .header-vinculo:hover {
@@ -545,6 +583,7 @@
         color:var(--yellow);
         transition:flex .5s;
         outline: .2rem solid var(--yellow);
+        cursor: pointer;
     }
 
     .header-contact:hover .contact-img{
@@ -628,6 +667,10 @@
         min-height: 20rem;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .footer-vinculo:hover {
+        cursor: pointer;
     }
 
     .footer-contacts-container:hover{

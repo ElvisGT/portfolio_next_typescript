@@ -29,18 +29,19 @@ const BlogItem = ({dateTime,img,alt,title,description,link}:DateApi) => {
                             className={styles['item-card-vinculo']} 
                             title="Ir al sitio de la noticia">
                             <>
-                                Leer más
+                                <button className={styles.readMore}>Leer más
                                 <Image className={styles['item-card-arrow-img']} 
                                         src="https://i.ibb.co/cQ1m9Bt/icons8-chebr-n-hacia-la-derecha-30-1.png" 
                                         alt="right arrow" 
                                         title="Ir al sitio de la noticia"
                                         width={15}
                                         height={15}/>
+                                </button>
                             </>
                     </Link>
                 </div>
         </>
     );
-}
+};
 
 export {BlogItem};

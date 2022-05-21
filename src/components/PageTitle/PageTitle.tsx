@@ -7,7 +7,7 @@ const PageTitle = ({title,description} : PropsPageTitle) => {
             <h1 className={styles['page-title']}>{title}</h1>
             <h2 className={styles['page-description']}>{description}</h2>
         </>
-    )
-}
+    );
+};
 
 export {PageTitle};

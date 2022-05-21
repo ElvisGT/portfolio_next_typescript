@@ -25,7 +25,7 @@ const ItemServices = ({serviceName,serviceIMG,serviceALT} : PropsItemServices) =
             </>
     );
 
-}
+};
 
 
 export {ItemServices};
