@@ -5,7 +5,8 @@ const nextConfig = {
   reactStrictMode: true,
   images:{
     domains:['i.ibb.co','i.postimg.cc','cnnespanol.cnn.com'],
-  }
+  },
+  compress:true,
 
 }
 
