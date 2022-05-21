@@ -1,11 +1,20 @@
 const data = [
     {
-        id:1,
+        id:0,
         img:'https://i.ibb.co/7Rm6hdb/todo.jpg',
         alt:'imagen de proyecto TODO_tareas_pendientes',
         description:'Aplicacion hecha en React js haciendo uso de custom hooks como useState,useReducer y useRef',
         github:'https://github.com/ElvisGT/TODO_tareas_pendientes',
         hosting:'https://elvisgt.github.io/TODO_tareas_pendientes/',
+
+    },
+    {
+        id:1,
+        img:'https://i.ibb.co/mrnQZH0/Captura.jpg',
+        alt:'imagen de proyecto Curso_Practico_Next',
+        description:'Esta aplicación la realicé con React Js, haciendo uso de React Context y utilizando Server Side Rendering con Next js. Hago peticiones de una fake api con Axio para los datos',
+        github:'https://github.com/ElvisGT/Practica_Next',
+        hosting:'https://practica-next-lsbcnkgti-elvisgt.vercel.app/',
 
     },
     {
