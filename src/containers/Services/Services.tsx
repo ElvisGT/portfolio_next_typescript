@@ -19,9 +19,13 @@ const Services = () => {
                     
                     <ItemServices serviceName="Git" serviceIMG="https://i.postimg.cc/cJ0rfVJh/icons8-git-50.png" serviceALT="Foto del logo de Git" />
 
-                    <ItemServices serviceName="Javascript" serviceIMG="https://i.ibb.co/d2ycmhM/icons8-javascript-50.png" serviceALT="Foto del logo de Javascript" />
+                    <ItemServices serviceName="JavaScript" serviceIMG="https://i.ibb.co/d2ycmhM/icons8-javascript-50.png" serviceALT="Foto del logo de Javascript" />
 
                     <ItemServices serviceName="Github" serviceIMG="https://i.ibb.co/9VskQXz/icons8-github-50.png" serviceALT="Foto del logo de Github" />
+                    
+                    <ItemServices serviceName="TypeScript" serviceIMG="https://i.ibb.co/qnD7R2N/icons8-typescript-50.png" serviceALT="Foto del logo de Typescript" />
+
+
 
                 </div>
         </div>
