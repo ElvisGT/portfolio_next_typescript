@@ -1,10 +1,10 @@
-:root {
+:root
+{
     --text:#ffbc42;
     --white:white;
     --background-black:#252422;
     --background-black-light:#403d39;
     --yellow:yellow;
-
 }
 
 *{
@@ -21,3 +21,5 @@
     font-size: 1.6rem;
     font-family: 'Lato', sans-serif;
   }
+
+  

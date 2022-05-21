@@ -7,6 +7,7 @@ import {Services} from '@containers/Services/Services';
 import {Portfolio} from '@containers/Portfolio/Portfolio';
 import {Blog} from '@containers/Blog/Blog';
 import "aos/dist/aos.css";
+import Head from 'next/head';
 import '@static/css/globals.css';
 
 function MyApp() {
@@ -15,6 +16,10 @@ function MyApp() {
     }, []);
   return (
       <>
+        <Head>
+          <title>Portfolio de Elvis</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head>
         <Header />
         <Home />
         <Services />

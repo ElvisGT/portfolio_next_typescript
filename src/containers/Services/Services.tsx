@@ -1,5 +1,5 @@
-import { PageTitle } from '../../components/PageTitle/PageTitle';
-import {ItemServices} from '../../components/Services/ItemServices';
+import { PageTitle } from '@components/PageTitle/PageTitle';
+import {ItemServices} from '@components/Services/ItemServices';
 import styles from '@static/css/style.module.css';
 
 

@@ -1,4 +1,3 @@
-
 .Container {
     min-height: calc(100vh - 10rem - 28rem);
 }
@@ -10,6 +9,7 @@
     width: 100%;
     height: 10rem;
     background-color: var(--background-black);
+    
 }
 
 .header-name {
@@ -42,8 +42,6 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 4rem;
-    height: 4rem;
     margin: .8rem;
     z-index: 3;
 }
@@ -51,7 +49,7 @@
 .header-icon-menu {
     width: 4rem;
     height: 4rem;
-    margin-right: 1.2rem;
+    margin-right: 2rem;
     object-fit: cover;
 
 }
@@ -86,15 +84,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 10rem;
+    width: 16rem;
     height: 4rem;
-}
-
-.contact-vinculo {
-    height: 3rem;
-    color: var(--text);
-    text-decoration: none;
-    
 }
 
 .contact-img {
@@ -117,19 +108,21 @@
     flex-direction: column;
 }
 
-.footer-vinculo {
+.footer-contacts-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    width: 15rem;
-    height: 3.5rem;
-    margin-top: 1rem;
-    font-weight: 400;
+    width: 13rem;
+    height: 4rem;
+    padding: 1rem;
+    background-color: var(--background-black-light);
+    border-radius:.8rem;
+}
+
+
+.footer-vinculo {
     text-decoration: none;
     color: var(--text);
-    background-color: var(--background-black-light);
-    border-radius: .8rem;
-    z-index: 2;
 }
 
 .footer-upArrow {
@@ -452,6 +445,10 @@
 }
 
 .portfolio-project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-height: 30rem;
     margin: 1rem;
 
@@ -472,20 +469,27 @@
 
 .project-item-vinculo-container {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 1rem;
+    align-items: center;
+}
+
+.project-item-vinculo-buttom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 2.5rem;
+    margin: 2rem;
+    border-radius: .4rem;
+    background-color: var(--text);
+    text-align: center;
+
 }
 
 .project-item-vinculo {
-    width: 8rem;
-    padding: .5rem;
     font-size: 1.7rem;
     font-weight: bold;
     color: var(--background-black);
-    background-color: var(--text);
-    border-radius: .4rem;
     text-decoration: none;
-    text-align: center;
 }
 
 .project-item-vinculo:active {
@@ -515,6 +519,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+
     }
 
     .header-menu-desktop:hover .header-vinculo {
@@ -533,19 +538,27 @@
         flex: .1;
         transition: .8s;
         text-align: center;
-
     }
 
     .header-vinculo:hover {
         flex: .2;
         color:var(--yellow);
         transition:flex .5s;
-        border: .1rem solid var(--yellow);
+        outline: .2rem solid var(--yellow);
     }
 
-    .contact-vinculo {
-        max-width: 3rem;
-        margin-right: 2rem;
+    .header-contact:hover .contact-img{
+        opacity: 0.5;
+        transition: .5s;
+    }
+
+    .header-contact:hover .contact-img:hover{
+        opacity: 1;
+    }
+
+    .contact-img:hover {
+        filter:drop-shadow(0 0 0 var(--yellow)) opacity(1);
+        cursor: pointer;
     }
 
     #header-name-animation{
@@ -562,6 +575,7 @@
         max-width: 15rem;
         min-height: 15rem;
         max-height: 20rem;
+        animation-duration: .5s;
         
     }
 
@@ -569,10 +583,7 @@
         width: 100%;
         justify-content: space-around;
     }
-
-    .services-card-item {
-        animation-duration: .5s;
-    }
+ 
 
     .portfolio {
         min-height: 80rem;
@@ -595,17 +606,11 @@
         font-size: 1.8rem;
     }
 
-    .project-item-vinculo:hover {
+    .project-item-vinculo-buttom:hover {
         background-color: var(--yellow);
-        transition: .6s;
+        transition: .4s;
     }
 
-    .blog-button-language:hover {
-        background-color: var(--yellow);
-        transition: .6s;
-        cursor: pointer;
-        
-    }
     
     .blog-container {
         width: 100%;
@@ -625,8 +630,25 @@
         justify-content: space-evenly;
     }
 
-    .footer-vinculo:hover {
-        border:.1rem solid var(--yellow);
+    .footer-contacts-container:hover{
+        outline:.2rem solid var(--yellow);
+        cursor: pointer;
+    }
+
+    .footer-contacts-container:hover .contact-img{
+        filter:drop-shadow(0 0 0 var(--yellow)) opacity(1);
+    }
+
+    .footer-upArrow-img:hover{
+        cursor: pointer;
+        filter:drop-shadow(0 0 0 var(--yellow)) opacity(1) brightness(1.2);
+
+    }
+
+    .footer-icon-vinculo:hover {
+        cursor: pointer;
+        filter:drop-shadow(0 0 0 var(--yellow)) opacity(1) brightness(1.2);
+
     }
   
 }

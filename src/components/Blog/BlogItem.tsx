@@ -20,8 +20,8 @@ const BlogItem = ({dateTime,img,alt,title,description,link}:DateApi) => {
                     <Image className={styles['item-card-img']} 
                             src={img} 
                             alt={alt}
-                            width={30}
-                            height={20}/>
+                            width={300}
+                            height={200}/>
                     <h3 className={styles['item-card-title']}>{title}</h3>
                     <p className={styles['item-card-description']}>{description}</p>
                     <Link href={link} target={"_blank"} 

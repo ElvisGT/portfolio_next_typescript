@@ -22,7 +22,7 @@ export interface PropsHeader {
 
 export interface PropsPageTitle {
     title:string,
-    description:string,
+    description?:string,
 }
 
 export interface PropsProjects {

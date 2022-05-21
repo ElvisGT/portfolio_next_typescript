@@ -21,14 +21,24 @@ const Projects = ({img,alt,description,github,hosting} : PropsProjects) => {
                         alt={alt}
                         width={250}
                         height={250}/>
+
                 <p className={styles['project-item-description']}>{description}</p>
-                <div className={styles['project-item-vinculo-container']}> 
-                    <Link className={styles['project-item-vinculo']} 
-                            target={"_blank"} rel="noreferrer" 
-                            href={github} title="Ver código en Github">Github</Link>
-                    <Link className={styles['project-item-vinculo']} 
-                            target={"_blank"} rel="noreferrer" 
-                            href={hosting} title="Probar sitio en producción">Probar</Link>
+                <div className={styles['project-item-vinculo-container']}>
+                    <div className={styles['project-item-vinculo-buttom']}> 
+                        <Link  target={"_blank"} rel="noreferrer" 
+                                href={github} >
+                                
+                                <a className={styles['project-item-vinculo']} title="Ver código en Github">Github</a>
+                        </Link>
+                    </div>
+                    <div className={styles['project-item-vinculo-buttom']}> 
+                        <Link target={"_blank"} rel="noreferrer" 
+                                href={hosting}>
+                                
+                                
+                                <a className={styles['project-item-vinculo']} title="Probar sitio en producción">Probar</a>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </>

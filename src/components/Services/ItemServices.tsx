@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import styles from '@static/css/style.module.css';
 import { PropsItemServices } from '@interface/index';
+import styles from '@static/css/style.module.css';
 
 
 const ItemServices = ({serviceName,serviceIMG,serviceALT} : PropsItemServices) => {
