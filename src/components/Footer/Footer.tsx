@@ -69,21 +69,21 @@ const Footer = () => {
     
             
             <p className={styles['footer-icon']}>
-                Iconos de 
+                Iconos de{` `}
                 <Link  target={"_blank"} rel="noreferrer" 
                         href="https://icons8.com" 
                         title="Link a Icons8">
                         
-                        <button className={styles['footer-icon-vinculo']}> Icons8</button>
+                        <button className={styles['footer-icon-vinculo']}>Icons8</button>
                 </Link>
             </p>
             <p className={styles['footer-icon']}>
-                Imágenes de
+                Imágenes de{` `}
                 <Link target={"_blank"} rel="noreferrer" 
                         href="https://pexels.com" 
                         title="Link a Pexels">
                         
-                        <button className={styles['footer-icon-vinculo']}> Pexels</button>
+                        <button className={styles['footer-icon-vinculo']}>Pexels</button>
                 </Link>
             </p>
     
