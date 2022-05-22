@@ -43,11 +43,6 @@ export const useHeader = () : MenusHeader => {
                 setMenuDesktop(false);
 
             }
-        
-        window.onresize = () => {
-            window.location.reload();
-            
-        };
 
     },[]);
     
