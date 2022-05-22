@@ -7,8 +7,6 @@ const nextConfig = {
     domains:['i.ibb.co','i.postimg.cc','cnnespanol.cnn.com'],
   },
   compress:true,
-  distDir:'./build',
-
 }
 
 module.exports = nextConfig;
