@@ -19,6 +19,10 @@ function MyApp() {
         <Head>
           <title>Portfolio de Elvis</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          {/* --Icono-- */}
+          <link rel="shortcut icon" href="https://i.ibb.co/tpck5y3/icons8-portafolio-32.png" />
+          
+         
         </Head>
         <Header />
         <Home />
