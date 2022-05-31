@@ -203,7 +203,7 @@
 }
 
 .page-title {
-    padding-top: 1rem;
+    padding: 2rem 0;
     margin-bottom:.5rem;
     font-size: 1.4rem;
     font-weight: 400;
@@ -215,6 +215,7 @@
 .page-description {
     margin-bottom: 1rem;
     font-size: 2.5rem;
+    padding: 1rem 0;
     color:var(--white);
     text-align: center;
 
@@ -222,6 +223,7 @@
 
 .home-description {
     width: 95%;
+    margin-bottom: 2rem;
     font-size: 1.4rem;
     line-height: 2.2rem;
     color: var(--white);
@@ -379,7 +381,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 8rem;
+    width: 10rem;
     height: 3rem;
     font-weight: bold;
     font-style: italic;
@@ -607,7 +609,7 @@
     }
 
     .services {
-        min-height: 30rem;
+        min-height: 35rem;
     }
 
     .services-card-item {

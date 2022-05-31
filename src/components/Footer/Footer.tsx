@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Footer = () => {
     return(
         <div className={styles.footer}>    
-            <PageTitle title="CONTACTO"/>
+            <PageTitle title="CONTACT"/>
             <div className={styles['footer-contacts']} id="contact">
                 <div className={styles['footer-contacts-container']}>
                     <Image className={styles['contact-img']} 
@@ -69,7 +69,7 @@ const Footer = () => {
     
             
             <p className={styles['footer-icon']}>
-                Iconos de{` `}
+                Icons of{` `}
                 <Link  target={"_blank"} rel="noreferrer" 
                         href="https://icons8.com" 
                         title="Link a Icons8">
@@ -78,7 +78,7 @@ const Footer = () => {
                 </Link>
             </p>
             <p className={styles['footer-icon']}>
-                Imágenes de{` `}
+                Images of{` `}
                 <Link target={"_blank"} rel="noreferrer" 
                         href="https://pexels.com" 
                         title="Link a Pexels">
@@ -87,7 +87,7 @@ const Footer = () => {
                 </Link>
             </p>
     
-            <h3 className={styles['footer-derechos']} >Todos los derechos reservados 2022.</h3>
+            <h3 className={styles['footer-derechos']} >All right reserved 2022.</h3>
 
             
         </div>

@@ -4,7 +4,13 @@ const path = require('path');
 const nextConfig = {
   reactStrictMode: true,
   images:{
-    domains:['i.ibb.co','i.postimg.cc','cnnespanol.cnn.com'],
+    domains:[
+      'i.ibb.co',
+      'i.postimg.cc',
+      'cnnespanol.cnn.com',
+      'sportshub.cbsistatic.com',
+      'www.etonline.com',
+    ],
   },
   compress:true,
 }
