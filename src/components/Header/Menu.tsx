@@ -15,19 +15,19 @@ const Menu = ({handleClick} : PropsHeader) => {
                 
             <div className={styles['header-menu']}>
                 <Link href="#home">
-                    <button className={styles['header-vinculo']}>Inicio</button>
+                    <button className={styles['header-vinculo']}>Home</button>
                 </Link>
                 <Link href="#services">
-                    <button className={styles['header-vinculo']}>Servicios</button>
+                    <button className={styles['header-vinculo']}>Services</button>
                 </Link>
                 <Link href="#portfolio">
-                    <button className={styles['header-vinculo']}>Portafolio</button>
+                    <button className={styles['header-vinculo']}>Portfolio</button>
                 </Link>
                 <Link href="#blog">
                     <button className={styles['header-vinculo']}>Blog</button>
                 </Link>
                 <Link href="#contact">
-                    <button className={styles['header-vinculo']}>Contacto</button>
+                    <button className={styles['header-vinculo']}>Contact</button>
                 </Link>
                 <div className={styles['header-contact']}>
                     <Link className={styles['contact-vinculo']} href="https://www.facebook.com/elvis.giltorres/" target={"_blank"} rel="noreferrer">

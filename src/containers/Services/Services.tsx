@@ -8,7 +8,7 @@ const Services = () => {
     
     return(
         <div className={styles.services} id="services">
-                <PageTitle title="SERVICIOS" description="Desarrollo sitios web adaptados a todos los dispositivos utilizando buenas prácticas y haciendo uso de tecnologías como: "/>
+                <PageTitle title="SERVICES" description="I Develop responsives websites using good practices and do using of technologys as: "/>
                 
                 <div className={styles['services-card']}>
                     <ItemServices serviceName="HTML5" serviceIMG="https://i.postimg.cc/qqP7qFY8/icons8-html-5-50.png" serviceALT="Foto del logo de HTML5"/>

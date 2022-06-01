@@ -24,18 +24,21 @@ const BlogItem = ({dateTime,img,alt,title,description,link}:DateApi) => {
                             height={200}/>
                     <h3 className={styles['item-card-title']}>{title}</h3>
                     <p className={styles['item-card-description']}>{description}</p>
-                    <Link href={link} target={"_blank"} 
-                            rel="noreferrer" 
-                            className={styles['item-card-vinculo']} 
-                            title="Ir al sitio de la noticia">
-                                <button className={styles.readMore}>Leer más
-                                <Image className={styles['item-card-arrow-img']} 
-                                        src="https://i.ibb.co/cQ1m9Bt/icons8-chebr-n-hacia-la-derecha-30-1.png" 
-                                        alt="right arrow" 
-                                        title="Ir al sitio de la noticia"
-                                        width={15}
-                                        height={15}/>
-                                </button>
+                    <Link href={link} className={styles['item-card-vinculo']}> 
+                        <a href={link}
+                            target="_blank" 
+                            rel="noreferrer"
+                            style={{textDecoration:"none"}}  
+                            title="Go to the site of the notice">
+                            <button className={styles.readMore}>Read more
+                            <Image className={styles['item-card-arrow-img']} 
+                                    src="https://i.ibb.co/cQ1m9Bt/icons8-chebr-n-hacia-la-derecha-30-1.png" 
+                                    alt="right arrow" 
+                                    title="Go to the site of the notice"
+                                    width={15}
+                                    height={15}/>
+                            </button>
+                        </a>
                     </Link>
                 </div>
         </>

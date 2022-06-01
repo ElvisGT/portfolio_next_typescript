@@ -7,7 +7,15 @@ import '@static/css/globals.css';
 
 function MyApp({Component}:AppProps) {
     useEffect(() => {
-      AOS.init();
+      AOS.init(
+        {
+          startEvent: 'DOMContentLoaded',
+          initClassName: 'aos-init',
+          animatedClassName: 'aos-animate',
+          delay: 0,
+          offset:20,
+        }
+      );
     }, []);
   return (
       <>

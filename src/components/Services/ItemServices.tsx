@@ -8,12 +8,13 @@ const ItemServices = ({serviceName,serviceIMG,serviceALT} : PropsItemServices) =
             <>
                 <div className={styles['services-card-item']} 
                         data-aos="fade-left"
-                        data-aos-delay="30"
+                        data-aos-offset="0"
+                        data-aos-delay="10"
                         data-aos-duration="500"
                         data-aos-easing="ease-in"
-                        data-aos-mirror="true"
+                        data-aos-mirror="false"
                         data-aos-once="true"
-                        data-aos-anchor-placement="top-center" >
+                        data-aos-anchor="#home" >
                         
                         <Image className={styles['services-card-img']} 
                             src={serviceIMG} 

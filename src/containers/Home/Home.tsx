@@ -13,9 +13,9 @@ const Home = () => {
                         height={250} />
             </div>
             <div className={styles['home-container']}>
-                <PageTitle title="INTRODUCCIÓN" description="Frontend Developer React JS"/>
+                <PageTitle title="INTRODUCTION" description="Frontend Developer"/>
                 
-                <p className={styles['home-description']}>Mi nombre es Elvis y soy Frontend Developer React JS. Estudio diariamente de forma autodidacta para superarme y aprender nuevas tecnologías. No creo en las cosas imposibles, pienso que con perseverancia, sacrificio y esmero todo se puede lograr.
+                <p className={styles['home-description']}>My name is Elvis and i am Frontend Developer. I have worked with many technologies but i more likies React js and Next js. Everyday i study a new some thing, so i will cumply one of my dreams, improve the world using technology.
                 </p>
             </div>
         </div>

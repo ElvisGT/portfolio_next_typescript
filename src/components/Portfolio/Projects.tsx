@@ -10,7 +10,7 @@ const Projects = ({img,alt,description,github,hosting} : PropsProjects) => {
         <> 
             <div className={styles['portfolio-project-item']}
                         data-aos="fade-in"
-                        data-aos-delay="30"
+                        data-aos-delay="20"
                         data-aos-duration="400"
                         data-aos-easing="ease-in"
                         data-aos-once="true"
@@ -28,7 +28,7 @@ const Projects = ({img,alt,description,github,hosting} : PropsProjects) => {
                         <Link  target={"_blank"} rel="noreferrer" 
                                 href={github} >
                                 
-                                <button className={styles['project-item-vinculo']} title="Ver código en Github">Github</button>
+                                <button className={styles['project-item-vinculo']} title="See code on GitHub">Repo</button>
                         </Link>
                     </div>
                     <div className={styles['project-item-vinculo-buttom']}> 
@@ -36,7 +36,7 @@ const Projects = ({img,alt,description,github,hosting} : PropsProjects) => {
                                 href={hosting}>
                                 
                                 
-                                <button className={styles['project-item-vinculo']} title="Probar sitio en producción">Probar</button>
+                                <button className={styles['project-item-vinculo']} title="Website in prodduction">Test</button>
                         </Link>
                     </div>
                 </div>

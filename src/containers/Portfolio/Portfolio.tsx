@@ -8,7 +8,7 @@ const Portfolio = () => {
     
     return(
         <div className={styles.portfolio} id="portfolio">
-            <PageTitle title="PORTAFOLIO" description="Mis proyectos"/>
+            <PageTitle title="PORTFOLIO" description="My projects"/>
 
             <section className={styles['portfolio-container']}>
             {data.map(item => (
