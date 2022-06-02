@@ -4,25 +4,25 @@ import styles from '@static/css/style.module.css';
 
 
 const Services = () => {
-    
-    
+
+
     return(
         <div className={styles.services} id="services">
-                <PageTitle title="SERVICES" description="I Develop responsives websites using good practices and do using of technologys as: "/>
-                
+                <PageTitle title="SERVICES" description="I develop responsive websites using the best practices with technologies such as: "/>
+
                 <div className={styles['services-card']}>
                     <ItemServices serviceName="HTML5" serviceIMG="https://i.postimg.cc/qqP7qFY8/icons8-html-5-50.png" serviceALT="Foto del logo de HTML5"/>
-                    
+
                     <ItemServices serviceName="CSS3" serviceIMG="https://i.postimg.cc/GhtPyTft/icons8-css3-50.png" serviceALT="Foto del logo de CSS3" />
 
                     <ItemServices serviceName="React JS" serviceIMG="https://i.postimg.cc/cLYnRRBx/icons8-reaccionar-50.png" serviceALT="Foto del logo de React"/>
-                    
+
                     <ItemServices serviceName="Git" serviceIMG="https://i.postimg.cc/cJ0rfVJh/icons8-git-50.png" serviceALT="Foto del logo de Git" />
 
                     <ItemServices serviceName="JavaScript" serviceIMG="https://i.ibb.co/d2ycmhM/icons8-javascript-50.png" serviceALT="Foto del logo de Javascript" />
 
                     <ItemServices serviceName="Github" serviceIMG="https://i.ibb.co/9VskQXz/icons8-github-50.png" serviceALT="Foto del logo de Github" />
-                    
+
                     <ItemServices serviceName="TypeScript" serviceIMG="https://i.ibb.co/qnD7R2N/icons8-typescript-50.png" serviceALT="Foto del logo de Typescript" />
 
 

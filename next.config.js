@@ -10,9 +10,11 @@ const nextConfig = {
       'cnnespanol.cnn.com',
       'sportshub.cbsistatic.com',
       'www.etonline.com',
+      'cdn.i-scmp.com',
+      'thumbor.forbes.com',
     ],
   },
   compress:true,
-}
+};
 
 module.exports = nextConfig;
