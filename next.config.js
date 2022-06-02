@@ -12,6 +12,7 @@ const nextConfig = {
       'www.etonline.com',
       'cdn.i-scmp.com',
       'thumbor.forbes.com',
+      'deadline.com',
     ],
   },
   compress:true,
