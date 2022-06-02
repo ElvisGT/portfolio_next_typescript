@@ -7,13 +7,6 @@ const nextConfig = {
     domains:[
       'i.ibb.co',
       'i.postimg.cc',
-      'cnnespanol.cnn.com',
-      'sportshub.cbsistatic.com',
-      'www.etonline.com',
-      'cdn.i-scmp.com',
-      'thumbor.forbes.com',
-      'deadline.com',
-      'img.buzzfeed.com',
     ],
   },
   compress:true,

@@ -22,9 +22,6 @@ const Menu = ({handleClick} : PropsHeader) => {
                 <Link href="#portfolio">
                     <button className={styles['header-vinculo']}>Portfolio</button>
                 </Link>
-                <Link href="#blog">
-                    <button className={styles['header-vinculo']}>Blog</button>
-                </Link>
                 <Link href="#contact">
                     <button className={styles['header-vinculo']}>Contact</button>
                 </Link>

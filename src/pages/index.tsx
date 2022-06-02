@@ -3,7 +3,6 @@ import {Footer} from '@components/Footer/Footer';
 import { Home } from '@containers/Home/Home';
 import {Services} from '@containers/Services/Services';
 import {Portfolio} from '@containers/Portfolio/Portfolio';
-import {Blog} from '@containers/Blog/Blog';
 
 
 export default function index(){
@@ -13,7 +12,6 @@ export default function index(){
             <Home />
             <Services />
             <Portfolio />
-            <Blog />
             <Footer />
         </>
     );
