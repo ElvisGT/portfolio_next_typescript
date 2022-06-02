@@ -13,6 +13,7 @@ const nextConfig = {
       'cdn.i-scmp.com',
       'thumbor.forbes.com',
       'deadline.com',
+      'img.buzzfeed.com',
     ],
   },
   compress:true,
