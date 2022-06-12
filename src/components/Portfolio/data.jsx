@@ -81,6 +81,15 @@ const data = [
         hosting:'https://gorgeous-lolly-580aaa.netlify.app',
 
     },
+    {
+        id:9,
+        img:'https://i.ibb.co/Cmcx7Gs/giphy.png',
+        alt:'imagen de proyecto Search_Gif',
+        description:'App made with ReactJS, Api Rest and Redux-Toolkit. This is a gif search.',
+        github:'https://github.com/ElvisGT/Search_Gif',
+        hosting:'https://elvisgt.github.io/Search_Gif/',
+
+    },
 ];
 
 
