@@ -25,6 +25,10 @@ const Services = () => {
 
                     <ItemServices serviceName="TypeScript" serviceIMG="https://i.ibb.co/qnD7R2N/icons8-typescript-50.png" serviceALT="Foto del logo de Typescript" />
 
+                    <ItemServices serviceName="Bootstrap" serviceIMG="https://i.ibb.co/c83spFB/icons8-oreja-50.png" serviceALT="Foto del logo de Bootstrap" />
+
+                    <ItemServices serviceName="Redux" serviceIMG="https://i.ibb.co/F6QZw6s/icons8-redux-50.png" serviceALT="Foto del logo de Redux" />
+
 
 
                 </div>
