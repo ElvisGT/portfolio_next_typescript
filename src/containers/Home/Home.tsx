@@ -16,7 +16,7 @@ const Home = () => {
                 <PageTitle title="Elvis, Frontend Developer"/>
 
                 <p className={styles['home-description']}>
-                  {'Hi there 👋 I\'m Elvis and I\'m a Frontend Developer, I have been working with technologies like React JS and Next JS (those are my favorite tools). I\'m always open face new challenges and in my free time, I always try to learn new things that can help me to improve my skills to become a better web developer.'}
+                  {'Hola 👋 mi nombre es Elvis y soy un Frontend Developer React.js. Construyo sitios web responsive y siguiendo las mejores prácticas. Soy un apasionado de la tecnología, en especial la programación. Mi mayor sueño es mejorar el mundo haciendo uso de tecnología.'}
                 </p>
             </div>
         </div>

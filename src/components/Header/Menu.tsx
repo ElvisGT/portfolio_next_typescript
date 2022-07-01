@@ -14,16 +14,16 @@ const Menu = ({handleClick} : PropsHeader) => {
 
             <div className={styles['header-menu']}>
                 <Link href="#home">
-                    <button className={styles['header-vinculo']}>Home</button>
+                    <button className={styles['header-vinculo']}>Inicio</button>
                 </Link>
                 <Link href="#services">
-                    <button className={styles['header-vinculo']}>Services</button>
+                    <button className={styles['header-vinculo']}>Servicios</button>
                 </Link>
                 <Link href="#portfolio">
-                    <button className={styles['header-vinculo']}>Portfolio</button>
+                    <button className={styles['header-vinculo']}>Portafolio</button>
                 </Link>
                 <Link href="#contact">
-                    <button className={styles['header-vinculo']}>Contact</button>
+                    <button className={styles['header-vinculo']}>Contacto</button>
                 </Link>
                 <div className={styles['header-contact']}>
                     <a className={styles['contact-vinculo']} href="https://www.facebook.com/elvis.giltorres/" target={"_blank"} rel="noreferrer">
