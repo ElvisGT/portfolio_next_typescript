@@ -1,7 +1,6 @@
 import { PageTitle } from '../PageTitle/PageTitle';
 import styles from '@static/css/style.module.css';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const socialMedia = [
   {id: 1, name: 'LinkedIn', href: 'https://www.linkedin.com/in/elvis-gil-torres-ab64a9225/', imgSrc: 'https://i.ibb.co/QXPPLpp/icons8-linkedin-64.png'},
@@ -13,7 +12,7 @@ const socialMedia = [
 const Footer = () => {
     return(
         <div className={styles.footer}>
-            <PageTitle title="CONTACT"/>
+            <PageTitle title="CONTACTO"/>
             <div className={styles['footer-contacts']} id="contact">
 
               {
@@ -34,35 +33,35 @@ const Footer = () => {
             </div>
 
             <div className={styles['footer-upArrow']}>
-                <Link href="#home" title="Ir al inicio">
+                <a href="#home" title="Ir al inicio">
                     <Image className={styles['footer-upArrow-img']}
                             src="https://i.ibb.co/vV3Tb3B/icons8-arriba-en-cuadrado-64.png"
                             alt="flecha hacia arriba"
                             width={40}
                             height={40}/>
-                </Link>
+                </a>
             </div>
 
             <p className={styles['footer-icon']}>
-                Icons by{` `}
-                <Link  target={"_blank"} rel="noreferrer"
+                Iconos por{` `}
+                <a  target={"_blank"} rel="noreferrer"
                         href="https://icons8.com"
                         title="Link a Icons8">
 
                         <button className={styles['footer-icon-vinculo']}>Icons8</button>
-                </Link>
+                </a>
             </p>
             <p className={styles['footer-icon']}>
-                Images by{` `}
-                <Link target={"_blank"} rel="noreferrer"
+                Imágenes por{` `}
+                <a target={"_blank"} rel="noreferrer"
                         href="https://pexels.com"
                         title="Link a Pexels">
 
                         <button className={styles['footer-icon-vinculo']}>Pexels</button>
-                </Link>
+                </a>
             </p>
 
-            <h3 className={styles['footer-derechos']} >All right reserved 2022.</h3>
+            <h3 className={styles['footer-derechos']} >Todos los derechos reservados 2022.</h3>
 
         </div>
     );
