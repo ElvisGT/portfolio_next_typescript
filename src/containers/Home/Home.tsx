@@ -19,6 +19,10 @@ const Home = () => {
                   {'Hola 👋 mi nombre es Elvis y soy un Frontend Developer React.js. Construyo sitios web responsive y siguiendo las mejores prácticas. Soy un apasionado de la tecnología, en especial la programación. Mi mayor sueño es mejorar el mundo haciendo uso de tecnología.'}
                 </p>
             </div>
+            
+            {/*Descargar CV*/}
+            <a className={styles['home-CV']} href="https://drive.google.com/u/0/uc?id=1bC3YxkjfGKNKX-NsAwIcwnLbaKv23W75&export=download" target={"_blank"} rel="preload">Descargar CV</a>
+            
         </div>
   );
 };
