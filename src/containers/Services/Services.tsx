@@ -28,6 +28,8 @@ const Services = () => {
                     <ItemServices serviceName="Bootstrap" serviceIMG="https://i.ibb.co/c83spFB/icons8-oreja-50.png" serviceALT="Foto del logo de Bootstrap" />
 
                     <ItemServices serviceName="Redux" serviceIMG="https://i.ibb.co/F6QZw6s/icons8-redux-50.png" serviceALT="Foto del logo de Redux" />
+                    
+                    <ItemServices serviceName="Sass" serviceIMG="https://i.ibb.co/3Y9nYjm/icons8-sass-50-1.png" serviceALT="Foto del logo de Sass" />
 
 
 
