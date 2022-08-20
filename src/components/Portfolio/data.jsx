@@ -9,6 +9,15 @@ const data = [
 
     },
     {
+        id:1,
+        img:'https://i.ibb.co/hYP6vqT/covid-19.png',
+        alt:'imagen de proyecto covid_19',
+        description:'Proyecto desarrollado con React.js, Redux, SASS, gestor de paquetes Npm y consumo de Api Rest',
+        github:'https://github.com/ElvisGT/covid_19',
+        hosting:'https://covid-19-amber-psi.vercel.app/#/',
+
+    },
+    {
         id:3,
         img:'https://i.ibb.co/7Rm6hdb/todo.jpg',
         alt:'imagen de proyecto TODO_tareas_pendientes',
